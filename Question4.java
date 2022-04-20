@@ -19,5 +19,17 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
+    string dot = "*";
+
+    //System.out.print("Enter an integer: ");  
+    int base = in.nextInt();
+
+    while (base > 0) 
+    {
+      for (int i = 0; i < base; i++) 
+      {
+        System.out.println(dot);
+      }
+    }
   }
 }
