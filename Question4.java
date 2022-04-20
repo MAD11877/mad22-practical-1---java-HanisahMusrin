@@ -19,7 +19,7 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
-    string dot = "*";
+    string symbol = "*";
 
     //System.out.print("Enter an integer: ");  
     int base = in.nextInt();
@@ -28,7 +28,7 @@ public class Question4
     {
       for (int i = 0; i < base; i++) 
       {
-        System.out.println(dot);
+        System.out.println(symbol);
       }
     }
   }
